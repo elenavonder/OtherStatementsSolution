@@ -19,7 +19,7 @@ namespace OtherStatementsProject
             var TodayIsMonday = false; //If true will say Monday
             var DayOfTheWeek = "";
             DayOfTheWeek = (TodayIsMonday == true)//can do with or without == true
-                ? "Monday" : "Not Monday";
+                ? "Monday" : "Not Monday";//<< this is a ternary operator
             Console.WriteLine(DayOfTheWeek);
         }
     }
